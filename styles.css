@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
 * {
 	vertical-align: baseline;
 	font-weight: inherit;
@@ -9,4 +12,38 @@
 	padding: 0;
 	margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: #130724;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-image: url('https://images.unsplash.com/photo-1612838326824-4b3b3b3b3b3b');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
